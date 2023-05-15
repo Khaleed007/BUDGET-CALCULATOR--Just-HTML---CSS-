@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto:wght@300&display=swap" rel="stylesheet">
+            <title>Budget Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <header class="headeronly">
+            <h1 id="title" class="text-center">Budget Calculator</h1>
+        </header>
+        <form id="form-items">
+            <div class="form-group">
+                <label id="income-label" for="Income">Income</label>
+                <p id="description" class="description text-left">
+                Salary & Earned Income
+                </p>
+                <input
+                type="text"
+                name="income"
+                id="income"
+                class="form-control"
+                placeholder="Enter Salary Earned"
+                required
+            />
+            </div>
+                <h1 id="expense" class="site">Expense</h1>
+            
+            <div class="form-group">
+                <label id="Food-Label" for="food">Food</label>
+                <p id="description" class="description text-left">
+                Groceries,Dining out, etc    
+                </p>
+                <input
+                    type="text"
+                    name="food"
+                    id="food"
+                    class="form-control"
+                    placeholder="Amount spent on food"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label id="Shelter-Label" for="shelter">Shelter</label>
+                <p id="description" class="description text-left">
+                Mortgage,Rent,Taxes, etc    
+                </p>
+                <input
+                    type="text"
+                    name="shelter"
+                    id="shelter"
+                    class="form-control"
+                    placeholder="Amount spent on Shelter"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label id="Household-Label" for="household">Household</label>
+                <p id="description" class="description text-left">
+                Utilities,Cell phone,Cable,maintenance etc    
+                </p>
+                <input
+                    type="text"
+                    name="household"
+                    id="household"
+                    class="form-control"
+                    placeholder="Amount spent on Household"
+                    required
+                />
+            <div class="form-group">
+                <label id="Transportation-Label" for="transportation">Transportation</label>
+                <p id="description" class="description text-left">
+                Public transportation,Parking,Gas etc    
+                </p>
+                <input
+                    type="text"
+                    name="transportation"
+                    id="transportation"
+                    class="form-control"
+                    placeholder="Amount spent on Transportation"
+                    required
+                />
+            <div class="form-group">
+                <label id="Health-Label" for="health">Health</label>
+                <p id="description" class="description text-left">
+                Insurance,Medication,Doctor's visit etc    
+                </p>
+                <input
+                    type="text"
+                    name="health"
+                    id="health"
+                    class="form-control"
+                    placeholder="Amount spent on Health"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label id="School-Label" for="School">School</label>
+                <p id="description" class="description text-left">
+                Tuition,Projects,School Supplies etc    
+                </p>
+                <input
+                    type="text"
+                    name="School"
+                    id="School"
+                    class="form-control"
+                    placeholder="Amount spent on School"
+                    required
+                />
+            <div class="form-group">
+                <label id="Personal-Label" for="personal">Personal</label>
+                <p id="description" class="description text-left">
+                Hobbies,Entertainment etc    
+                </p>
+                <input
+                    type="text"
+                    name="personal"
+                    id="personal"
+                    class="form-control"
+                    placeholder="Amount spent on Personal"
+                    required
+                    />
+            </div>     
+                    
+                <h1 id="Result" class="site">Result</h1>    
+
+            <div class="form-group">
+                <label id="remaining-Label" for="remaining">Remaining Funds</label>
+                <input
+                    type="text"
+                    name="remainingfunds"
+                    id="remaining"
+                    class="form-control"
+                    placeholder="for results Only"
+                    required
+                />
+            </div>    
+                
+                <h1 id="fifty" class="site">50/30/20 Rule</h1>
+            <div class="form-group">
+                <label id="suggested-Label" for="suggested">Suggested funds to keep for your needs</label>
+                <input
+                    type="text"
+                    name="suggestedfunds"
+                    id="suggested"
+                    class="form-control"
+                    placeholder="for results Only"
+                    required
+                />
+            <div class="form-group">
+                <label id="suggested-Label" for="suggested">Suggested funds to keep for your wants</label>
+                <input
+                    type="text"
+                    name="suggestedfunds"
+                    id="suggested"
+                    class="form-control"
+                    placeholder="for results Only"
+                    required
+                />
+            <div class="form-group">
+                <label id="suggested-Label" for="suggested">Suggested funds to keep for your savings</label>
+                <input
+                    type="text"
+                    name="suggestedfunds"
+                    id="suggested"
+                    class="form-control"
+                    placeholder="for results Only"
+                    required
+                />
+            </div>
+            <button type="button">Calculate Budget</button>
+            <button type="button">Reset</button>
+
+
+                    
+                
+
+
+
+
+    
